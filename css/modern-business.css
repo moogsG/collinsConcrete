@@ -28,6 +28,14 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+.svg-inline--fa.fa-w-8{
+  width: 4em;
+}
+.carousel-control{
+  height: 4em;
+  width:4em;
+  color: #ffffff;
+}
 
 .navbar-brand {
   font-family: 'Oswald', sans-serif;

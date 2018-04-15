@@ -8,10 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Collins Concrete and Bobcat</title>
+    <title>Collins Concrete and Bobcat Ltd</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- slick JS -->
+    <link href="vendor/slick/slick.css" rel="stylesheet">
+    <link href="vendor/slick/slick-theme.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
@@ -29,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Collins Concrete and Bobcat</a>
+        <a class="navbar-brand" href="index.html">Collins Concrete and Bobcat Ltd</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -100,33 +104,61 @@
       <!-- Related Projects Row -->
       <h3 class="my-4">Related Projects</h3>
 
-      <div class="row">
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="imgs/residential1.png" data-lightbox="residential" data-title="Concrete Tables">
-            <img class="img-fluid" src="imgs/residential1.png" alt="">
-          </a>
+      <!-- <div class="row"> -->
+        <div class="autoplay">
+          <div class="">
+            <a href="imgs/residential1.png" data-lightbox="residential" data-title="Concrete Tables">
+              <img class="img-fluid" src="imgs/residential1.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="imgs/residential2.png" data-lightbox="residential" data-title="Custom Walkways">
+              <img class="img-fluid" src="imgs/residential2.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="imgs/residential3.png" data-lightbox="residential" data-title="Custom Walkways">
+              <img class="img-fluid" src="imgs/residential3.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="imgs/residential4.png" data-lightbox="residential" data-title="Custom Walkways">
+              <img class="img-fluid" src="imgs/residential4.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="imgs/residential5.png" data-lightbox="residential" data-title="Custom Walkways">
+              <img class="img-fluid" src="imgs/residential5.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="imgs/residential6.png" data-lightbox="residential" data-title="Custom Walkways">
+              <img class="img-fluid" src="imgs/residential7.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="imgs/residential8.png" data-lightbox="residential" data-title="Custom Walkways">
+              <img class="img-fluid" src="imgs/residential8.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="imgs/residential9.png" data-lightbox="residential" data-title="Custom Walkways">
+              <img class="img-fluid" src="imgs/residential9.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="imgs/residential10.png" data-lightbox="residential" data-title="Custom Walkways">
+              <img class="img-fluid" src="imgs/residential10.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="imgs/residential11.png" data-lightbox="residential" data-title="Custom Walkways">
+              <img class="img-fluid" src="imgs/residential11.png" alt="">
+            </a>
+          </div>
         </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="imgs/residential2.png" data-lightbox="residential" data-title="Custom Walkways">
-            <img class="img-fluid" src="imgs/residential2.png" alt="">
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="imgs/residential3.png" data-lightbox="residential" data-title="Ripout and Replace">
-            <img class="img-fluid" src="imgs/residential3.png" alt="">
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="imgs/residential4.png" data-lightbox="residential" data-title="Garage Pads">
-            <img class="img-fluid" src="imgs/residential4.png" alt="">
-          </a>
-        </div>
-
-      </div>
+      <!-- </div> -->
       <!-- /.row -->
 
     </div>
@@ -135,7 +167,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Colins Concrete and Bobcat 2018</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Collins Concrete and Bobcat Ltd</p>
       </div>
       <!-- /.container -->
     </footer>
@@ -143,6 +175,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/slick/slick.min.js"></script>
 
     <!-- Lightbox -->
     <script src="vendor/lightbox/js/lightbox.js"></script>
@@ -150,3 +183,13 @@
   </body>
 
 </html>
+<script>
+$(document).ready(function(){
+$('.autoplay').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+});
+</script>
