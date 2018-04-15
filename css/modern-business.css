@@ -46,6 +46,14 @@ background-color: rgba(0, 0, 0, 0.56);
 padding: 15px;
 }
 
+.slick-next::before, .slick-prev::before{
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.img-fluid{
+  padding:5px;
+}
+
 .card-title a {
   color: #5A6267;
   text-decoration: none;
